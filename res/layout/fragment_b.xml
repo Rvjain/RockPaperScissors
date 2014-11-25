@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/yellow">
+
+    <TextView
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\n1. A New Player needs to signup first.\n2. Once Signed up, a player can just login and enjoy the game.\n3. Player Can Play In Vs CPU Mode\n4. Player Can Play in Vs Player (Coming Soon!) Mode"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

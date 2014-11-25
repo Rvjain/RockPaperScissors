@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/yellow">
+
+    <TextView
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\n1. This Game uses Voice Recgonition Technique for Palying.\n2. For Example, a Player wants to choose Rock, so he will simply say Rock and waits for the Result.\n3. There is Real Time Display of Wins and Loses the player had."
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
